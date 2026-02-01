@@ -8,13 +8,13 @@
 
 body {
   line-height: 1.6;
-  background-color: #f8f8f8;
-  color: #333;
+  background-color: #f3f1f6; /* 浅灰紫（莫兰迪） */
+  color: #2f2f33;
 }
 
 /* Navbar */
 header {
-  background-color: #111;
+  background-color: #2e2a36;
   padding: 1rem 2rem;
 }
 
@@ -70,7 +70,7 @@ header {
 }
 
 .primary-btn {
-  background-color: #222;
+  background-color: #6f6a8a; /* 莫兰迪紫 */
   color: #fff;
   border: none;
   padding: 0.6rem 1.2rem;
@@ -87,7 +87,7 @@ header {
   display: flex;
   justify-content: space-around;
   padding: 3rem 2rem;
-  background-color: #f1f1f1;
+  background-color: #ebe7f0;
 }
 
 .feature-card {
@@ -112,7 +112,7 @@ header {
 /* Contact */
 .contact {
   padding: 3rem 2rem;
-  background-color: #f1f1f1;
+  background-color: #ebe7f0;
   text-align: center;
 }
 
@@ -133,7 +133,7 @@ header {
 
 /* Footer */
 footer {
-  background-color: #111;
+  background-color: #2e2a36;
   color: #fff;
   text-align: center;
   padding: 1rem;
@@ -146,15 +146,20 @@ footer {
     gap: 1rem;
   }
 
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-  }
+.nav-links .btn {
+  border: 1px solid #c9c5d3;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  color: #fff;
+}
 
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+}
 
   .hero-text {
     max-width: 100%;
@@ -166,7 +171,11 @@ footer {
     gap: 1.5rem;
   }
 
-  .feature-card {
-    width: 100%;
-  }
+.feature-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  width: 30%;
+  text-align: center;
+  border-radius: 6px;
+}
 }
